@@ -1,33 +1,33 @@
-body{
-  background-color:gray;
+body {
+  background-color: gray;
   font-family: Poppins;
+}
+
+.container {
   display: flex;
   flex-direction: column;
 }
-.container{
-  ba
-}
-.home{
 
-}
-.about{
-
-}
-.offers{
-
-}
-.advert{
-
-}
-.downloads{
-
-}
-.newsletter{
-
-}
-.footer{
-
+.home {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
 }
 .navbar{
-  
+  display: flex;
+  align-items: center;
 }
+
+.about {}
+
+.offers {}
+
+.advert {}
+
+.downloads {}
+
+.newsletter {}
+
+.footer {}
+
+.navbar {}
