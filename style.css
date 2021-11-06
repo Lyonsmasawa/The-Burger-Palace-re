@@ -181,18 +181,77 @@ body {
   font-weight: bolder;
   margin-bottom: 60px;
 }
+.cartian{
+  background-color: #e1ebe6;
+  padding: 5px 40px;
+  font-size: 26px;
+  border: none;
+  border-radius: 25px;
+}
 
 .menu {
   color: #f6b400;
 }
-.fa-shoping-cart{
+.fa-shopping-cart{
+  color: rgb(8, 8, 8);
+}
+
+.advert {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  align-items: center;
+  padding: 100px 50px;
+
+}
+.deck{
+  font-size: 24px;
+  padding: 35px;
+  flex-basis: 100%;
+}
+.rounds{
+  margin-top: 150px;
+  display: flex;
+  text-align:center;
+  align-items: center;
+  justify-content: space-around;
+}
+.round{
+  border: none;
+  background-color: gray;
+  padding: 15px;
+  border-radius: 50%;
+}
+.round1{
+  border: none;
+  background-color: #FFA500;
+  padding: 15px;
+  border-radius: 50%;
+}
+.arrow{
+  font-size: 110px;
+  color: #f6b400;
+  text-align: center;
+  padding-bottom: 35px;
+}
+.overlap{
 
 }
 
-.advert {}
-
-.downloads {}
-
+.downloads {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.appdownload{
+  display: flex;
+  align-items: center;
+  padding-left: 4%;
+  flex-basis: 100%;
+}
+.phonedisplay{
+  flex-basis: 100%;
+}
 .newsletter {}
 
 .footer {}
