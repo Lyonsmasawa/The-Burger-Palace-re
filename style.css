@@ -128,7 +128,6 @@ body {
 
 .quality2 {
   border: 1px solid #5c2a00;
-  padding: ;
   border-radius: 25px;
   flex-basis: 30%;
 }
@@ -214,14 +213,14 @@ body {
   justify-content: space-between;
   background-color: whitesmoke;
   align-items: center;
-  padding: 100px 50px;
+  padding: 100px 50px 30px 50px;
 
 }
 
 .deck {
-  font-size: 24px;
-  padding: 35px;
-  flex-basis: 100%;
+  font-size: 25px;
+  padding: 30px;
+  flex-basis: 70%;
 }
 
 .rounds {
@@ -229,20 +228,20 @@ body {
   display: flex;
   text-align: center;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .round {
   border: none;
   background-color: gray;
-  padding: 15px;
+  padding: 13px;
   border-radius: 50%;
 }
 
 .round1 {
   border: none;
   background-color: #FFA500;
-  padding: 15px;
+  padding: 13px;
   border-radius: 50%;
 }
 
@@ -253,7 +252,23 @@ body {
   padding-bottom: 35px;
 }
 
-.overlap {}
+.overlap {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .dcheck1 {
+    position: relative;
+    top: 0;
+    left: 50px;
+    width: 70%;
+  }
+  .dcheck2 {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 60%;
+  }
 
 .downloads {
   display: flex;
@@ -398,4 +413,24 @@ input[type=submit] {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+.taste{
+  padding-left: 4%;
+}
+.count{
+  font-size: 28px;
+  background-color: #e1ebe6;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 25px;
+}
+#two{
+  padding: 15px 6px;
+}
+.buttonc{
+  background-color: transparent;
+  border-color: transparent;
+  padding:  0px 25px;
 }
