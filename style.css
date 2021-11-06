@@ -269,6 +269,11 @@ body {
   text-align: center;
   align-items: center;
   justify-content: space-between;
+  padding: 0px 20px;
 }
-
-.navbar {}
+.social{
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-basis: 20%;
+}
