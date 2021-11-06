@@ -253,22 +253,24 @@ body {
 }
 
 .overlap {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-  .dcheck1 {
-    position: relative;
-    top: 0;
-    left: 50px;
-    width: 70%;
-  }
-  .dcheck2 {
-    position: absolute;
-    top: 50px;
-    left: 0px;
-    width: 60%;
-  }
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.dcheck1 {
+  position: relative;
+  top: 0;
+  left: 50px;
+  width: 70%;
+}
+
+.dcheck2 {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: 60%;
+}
 
 .downloads {
   display: flex;
@@ -277,21 +279,25 @@ body {
   background-color: #f6b400;
   padding: 6% 0%;
 }
+
 .appdownload {
   display: flex;
   padding: 10% 0% 0% 2%;
   align-items: center;
   flex-basis: 50%;
 }
+
 .phonedisplay {
   display: flex;
   align-items: center;
 }
-.downloadtext{
- font-size: 55px;
- font-weight: 900;
- padding-left: 8%;
+
+.downloadtext {
+  font-size: 55px;
+  font-weight: 900;
+  padding-left: 8%;
 }
+
 .pic {
   float: right;
   width: 100%;
@@ -387,37 +393,43 @@ input[type=submit] {
   justify-content: center;
   font-size: 24px;
 }
-.logof{
+
+.logof {
   display: flex;
 }
-.playstore{
-  background-image:url("img/Playstore.png");
+
+.playstore {
+  background-image: url("img/Playstore.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-color: transparent;
-  border:transparent;
+  border: transparent;
   padding: 25% 30% 30% 21%;
 }
-.appstore{
+
+.appstore {
   width: 50%;
   height: 60px;
-  background-image:url("img/Appstore.png");
+  background-image: url("img/Appstore.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-color: transparent;
-  border:transparent;
+  border: transparent;
   margin-bottom: 4%;
 }
-.store{
+
+.store {
   padding: 14%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.taste{
+
+.taste {
   padding-left: 4%;
 }
-.count{
+
+.count {
   font-size: 28px;
   background-color: #e1ebe6;
   display: flex;
@@ -426,22 +438,27 @@ input[type=submit] {
   justify-content: space-evenly;
   border-radius: 25px;
 }
-#two{
+
+#two {
   padding: 15px 6px;
 }
-.buttonc{
+
+.buttonc {
   background-color: transparent;
   border-color: transparent;
-  padding:  0px 25px;
+  padding: 0px 25px;
 }
+
 .ribbon {
   position: absolute;
   overflow: hidden;
-  width: 75px; height: 75px;
+  width: 75px;
+  height: 75px;
   text-align: right;
   padding-left: 26.8%;
   padding-top: 0%;
 }
+
 .ribbon span {
   font-size: 14px;
   color: #FFF;
@@ -452,5 +469,6 @@ input[type=submit] {
   display: block;
   background-color: #ff5e00;
   position: absolute;
-  top: 10px; right: -19px;
-} 
+  top: 10px;
+  right: -19px;
+}
