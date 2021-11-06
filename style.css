@@ -149,23 +149,44 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  column-gap: 10px;
+  column-gap: 1px;
   row-gap: 50px;
   flex-wrap: wrap;
   text-align: center;
+  padding: 10px 0px 120px 0px;
 }
 .quality{
   padding: 40px 0px;
-  width: 28%;
+  width: 27%;
   border-radius: 50px;
   box-shadow: 0 4px 7px 0 rgb(0, 0, 0, .5);
+  font-size: 20px;
 }
 .quality img{
-  width: 100%;
+  width: 90%;
 }
-.casht{
+#casht{
   display: flex;
-  
+  justify-content: space-between;
+  padding: 10px 20px 0px 50px;
+}
+.our {
+  text-decoration-line: underline;
+  text-decoration-color: #f6b400f3;
+  text-decoration-thickness: 12px;
+  text-underline-offset: 5px;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 60px;
+}
+
+.menu {
+  color: #f6b400;
+}
+.fa-shoping-cart{
+
 }
 
 .advert {}
