@@ -245,15 +245,30 @@ body {
 }
 .appdownload{
   display: flex;
+  padding: 10% 0% 10% 4%;
   align-items: center;
-  padding-left: 4%;
   flex-basis: 100%;
 }
 .phonedisplay{
   flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 4%;
 }
-.newsletter {}
+.newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-.footer {}
+.logo{
+  display: inline;
+}
+.footer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .navbar {}
