@@ -35,7 +35,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;  
   flex: .7;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bolder;
   align-items: center;
 }
@@ -44,7 +44,7 @@ body {
   color: black;  
 }
 #toplogo{
-  color: #f6b400;
+  color: #f89602;
 }
 .cartnav{
   background-color: transparent;
@@ -60,6 +60,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+#active1{
+  text-decoration: underline;
+  text-decoration-thickness: 10px;
+  text-underline-offset: 8px;
+  text-decoration-color: #f89602;
 }
 
 .about {}
