@@ -1,24 +1,33 @@
-#container{
-  background-color: black;
+body{
+  background-color:gray;
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
 }
-#home{
+.container{
+  ba
+}
+.home{
 
 }
-#about{
+.about{
 
 }
-#offers{
+.offers{
 
 }
-#advert{
+.advert{
 
 }
-#downloads{
+.downloads{
 
 }
-#newsletter{
+.newsletter{
 
 }
-#footer{
+.footer{
 
+}
+.navbar{
+  
 }
