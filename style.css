@@ -4,6 +4,7 @@ body {
 }
 
 .container {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
 }
@@ -16,6 +17,16 @@ body {
 .navbar{
   display: flex;
   align-items: center;
+}
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;  
+}
+.home1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .about {}
