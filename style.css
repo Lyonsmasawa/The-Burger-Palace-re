@@ -22,6 +22,12 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;  
+  flex: .4;
+  background-color: honeydew;
+}
+.navbar li{
+  padding: 20px ;
+  list-style: none;
 }
 .home1{
   display: flex;
