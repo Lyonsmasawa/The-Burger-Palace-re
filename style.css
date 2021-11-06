@@ -434,3 +434,23 @@ input[type=submit] {
   border-color: transparent;
   padding:  0px 25px;
 }
+.ribbon {
+  position: absolute;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+  padding-left: 26.8%;
+  padding-top: 0%;
+}
+.ribbon span {
+  font-size: 14px;
+  color: #FFF;
+  text-align: center;
+  line-height: 30px;
+  transform: rotate(45deg);
+  width: 150px;
+  display: block;
+  background-color: #ff5e00;
+  position: absolute;
+  top: 10px; right: -19px;
+} 
