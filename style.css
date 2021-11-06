@@ -1,5 +1,4 @@
 body {
-  background-color: gray;
   font-family: Poppins;
 }
 
@@ -7,65 +6,130 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
-*{
+
+* {
   box-sizing: border-box;
 }
+
 .home {
   display: flex;
   flex-direction: column;
-  background-color: green;
+  background-color: aqua;
+  background: linear-gradient(-78.2deg, #f6b400 50%, white 50%);
 }
-.logodiv{
+
+.logodiv {
   display: flex;
   align-items: center;
   padding-left: 20px;
   font-family: "";
   font-size: 20px;
 }
-.navbar{
+
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: blanchedalmond;
 }
-.navbar ul{
+
+.navbar ul {
   padding-right: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;  
+  justify-content: space-evenly;
   flex: .7;
   font-size: 22px;
   font-weight: bolder;
   align-items: center;
 }
-.nav a{
+
+.nav a {
   text-decoration: none;
-  color: black;  
+  color: black;
 }
-#toplogo{
-  color: #f89602;
+
+#toplogo {
+  color: #f6b400;
 }
-.cartnav{
+
+.cartnav {
   background-color: transparent;
   border: none;
   font-size: 20px;
-  padding-left: 80px;
+  padding-left: 100px;
 }
-.navbar li{
-  padding: 50px ;
+
+.navbar li {
+  padding: 10px 50px;
   list-style: none;
 }
-.home1{
+
+#active1 {
+  text-decoration: underline;
+  text-decoration-thickness: 10px;
+  text-underline-offset: 8px;
+  text-decoration-color: #f6b400;
+}
+
+.home1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-#active1{
-  text-decoration: underline;
-  text-decoration-thickness: 10px;
-  text-underline-offset: 8px;
-  text-decoration-color: #f89602;
+
+.content {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  
+}
+
+.rain {
+  font-size: 42px;
+}
+
+.cook {
+  font-size: 19px;
+}
+
+.order {
+  font-size: 18px;
+  color: white;
+  background-color: #f6b400;
+  border-radius: 30px 30px 0px 30px;
+  border: none;
+  padding: 15px 22px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.image1 img {
+  padding-left: 25%;
+  justify-content: center;
+  align-items: center;
+}
+.about{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 16px;
+  padding: 20px;
+  
+}
+.quality1{
+  border: 1px solid black;
+  padding: 30px 30px 0px 30px;
+  border-radius: 25px;
+}
+.bell,
+.truck,
+.food {
+  height: auto;
+  width: 50%;
 }
 
 .about {}
