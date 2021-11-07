@@ -53,9 +53,7 @@ Please make sure you update the branches when you make changes plus a detailed g
 * Basics of HTML and CSS
 
 ## License
-[MIT](https://github.com/Lyonsmasawa/The-Burger-Palace-re/blob/4347e34d155dd0bbb118d595fef0c896a04605ac/Licence.md)
-
-MIT License
+[MIT Licence](https://github.com/Lyonsmasawa/The-Burger-Palace-re/blob/4347e34d155dd0bbb118d595fef0c896a04605ac/Licence.md)
 
 Copyright (c) 2021 Lyons Albert Masawa
 
