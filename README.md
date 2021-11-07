@@ -1,15 +1,15 @@
 # The-Burger-Palace-re
 
-![Peek](img/Project.png)
+![Peek](img/Project.png | height=250px)
 
 ## Table of Content
 
-+ [Description](#description)
-+ [Installation Requirement](#Installation)
-+ [Technology Used](#technology-used)
++ [Description](#Description)
++ [Languages](##Languagesused)
++ [Contributing](##Contributing)
 + [Reference](#reference)
-+ [Licence](#licence)
-+ [Authors Info](#author-Info)
++ [Licence](##Licence)
++ [Author](#Author)
 
 ## Description
 Burger place restaurant Landing page.
@@ -54,4 +54,4 @@ Please make sure you update the branches when you make changes plus a detailed g
 # Author
 -Lyons Albert Masawa.
 
-[Go Back to the top](#portfolio)
+[Go Back to the top](#The-Burger-Palace-re)
