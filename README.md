@@ -1,6 +1,6 @@
 # The-Burger-Palace-re
 
-<img src="img/Project.png" width="500px" height="300px">
+<img src="img/Project.png" style="width=60%">
 
 ## Table of Content
 
