@@ -163,7 +163,7 @@ body {
 }
 
 .quality {
-  padding: 40px 0px;
+  padding: 0px 0px 50px 0px;
   width: 27%;
   border-radius: 50px;
   box-shadow: 0 4px 7px 0 rgb(0, 0, 0, .5);
@@ -449,26 +449,23 @@ input[type=submit] {
   padding: 0px 25px;
 }
 
-.ribbon {
+.ribbon{
+  width: 157.5px;
+  height: 200px;
   position: absolute;
+  box-sizing: border-box;
+  left: 22%;
   overflow: hidden;
-  width: 75px;
-  height: 75px;
-  text-align: right;
-  padding-left: 26.8%;
-  padding-top: 0%;
+}
+.ribbon span{
+  width: 225px;
+  padding: 15px;
+  background-color:#ff7b00;
+  color: white;
+  display: block;
+  left: -25px;
+  transform: rotate(45deg);
+  text-align: center;
+  font-size: 20px;
 }
 
-.ribbon span {
-  font-size: 14px;
-  color: #FFF;
-  text-align: center;
-  line-height: 30px;
-  transform: rotate(45deg);
-  width: 150px;
-  display: block;
-  background-color: #ff5e00;
-  position: absolute;
-  top: 10px;
-  right: -19px;
-}
