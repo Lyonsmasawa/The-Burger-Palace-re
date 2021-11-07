@@ -61,22 +61,18 @@ body {
 .cartnav {
   background-color: transparent;
   border: none;
-  font-size: 20px;
+  font-size: 24px;
   padding-left: 100px;
   display: flex;
 }
 .badge{
   position: absolute;
-  top: 45px;
-  right: 113px;
-  background-color: #ff7b00;
+  background-color: rgb(255, 123, 0);
   color: white;
-  font-size: 14px;
-  padding: 1px 5px;
+  font-size: 16px;
+  padding: 1px 4px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: -5px 12px;
 }
 
 .navbar li {
