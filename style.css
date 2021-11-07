@@ -2,6 +2,10 @@ body {
   font-family: Poppins;
 }
 
+@font-face {
+  font-family: Brannboll;
+  src: url(font/BrannbollFS_PERSONAL.ttf);
+}
 .container {
   box-sizing: border-box;
   display: flex;
@@ -59,6 +63,20 @@ body {
   border: none;
   font-size: 20px;
   padding-left: 100px;
+  display: flex;
+}
+.badge{
+  position: absolute;
+  top: 45px;
+  right: 113px;
+  background-color: #ff7b00;
+  color: white;
+  font-size: 14px;
+  padding: 1px 5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar li {
@@ -97,9 +115,9 @@ body {
 }
 
 .order {
-  font-size: 18px;
+  font-size: 20px;
   color: white;
-  background-color: #f6b400;
+  background-color: #ff7b00;
   border-radius: 30px 30px 0px 30px;
   border: none;
   padding: 15px 22px;
@@ -114,11 +132,29 @@ body {
 }
 
 .about {
-  display: flex;
   text-align: center;
-  justify-content: space-between;
-  padding: 13% 5% 7% 5%;
+  padding: 200px 0px 10px 10px;
+  align-content: center;
   background-color: whitesmoke;
+}
+
+.about .column {
+  float: left;
+  width: 25%;
+  margin: 0% 4%;
+  padding: 50px 0 10px 0px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.edge {
+  margin: 40px 12px;
+}
+
+.middle {
+  margin: 20px 150px;
+  padding: 50px;
 }
 
 .writing {
@@ -204,8 +240,11 @@ body {
   color: #f6b400;
 }
 
-.fa-shopping-cart {
-  color: rgb(8, 8, 8);
+
+.cart{
+  -webkit-text-fill-color: rgba(248, 247, 242, 0.4);
+  -webkit-text-stroke-width: 1.5px;
+  font-size: 35px;
 }
 
 .advert {
@@ -350,6 +389,12 @@ body {
 
 .logo {
   display: inline;
+  font-family: Brannboll;
+  font-size: 50px;
+}
+.logo1{
+  font-family: Brannboll;
+  font-size: 35px;
 }
 
 .footer {
@@ -446,7 +491,9 @@ input[type=submit] {
 .buttonc {
   background-color: transparent;
   border-color: transparent;
-  padding: 0px 25px;
+  padding: 0px 20px;
+  color: green;
+  font-size: 30px;
 }
 
 .ribbon{
