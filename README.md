@@ -1,17 +1,39 @@
 # The-Burger-Palace-re
 
+![Peek](img/Project.png)
+
+## Table of Content
+
++ [Description](#description)
++ [Installation Requirement](#Installation)
++ [Technology Used](#technology-used)
++ [Reference](#reference)
++ [Licence](#licence)
++ [Authors Info](#author-Info)
+
+## Description
 Burger place restaurant Landing page.
 
-# Live link
+#[Click here to view site](https://lyonsmasawa.github.io/The-Burger-Palace-re/)
 
-This iss a restaurant landing page template
+## Language used
+This is a restaurant landing page template made of only HTML and CSS.
+  -HTML for the page structure.
+  -CSS for the page styling
 
-To use the template
+##To use the template.
 ```
 
 ## Usage
+* Requirements
 
-*Landing page for a restaurant HTML site*
+> A device able to display a webpage.
+
+> A code editor.
+
+> Basic knowledge on HTML and CSS
+
+* Installation
 
 > Clone repository or click on the download code button.
 
@@ -21,7 +43,15 @@ To use the template
 ## Contributing
 Pull requests are welcome at all times. the more the merrier
 
-Please make sure you update the branches when you make changes plus a detailed guideline of changes made
+Please make sure you update the branches when you make changes plus a detailed guideline(commits) of changes made.
+
+## Reference
+* Basics of HTML and CSS
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/Lyonsmasawa/The-Burger-Palace-re/blob/4347e34d155dd0bbb118d595fef0c896a04605ac/Licence.md)
+
+# Author
+-Lyons Albert Masawa.
+
+[Go Back to the top](#portfolio)
