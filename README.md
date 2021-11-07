@@ -1,7 +1,7 @@
 # The-Burger-Palace-re
 
 ## A peek of the page
-<--  - -  --  - - -- - - - -   -   --  -   - --  >
+
 <img src="img/Project.png">
 
 ## Table of Content
@@ -17,7 +17,7 @@
 ## Description
 Burger place restaurant Landing page.
 
-  >>>[Click here to view site](https://lyonsmasawa.github.io/The-Burger-Palace-re/)<<<
+* [Click here to view site](https://lyonsmasawa.github.io/The-Burger-Palace-re/)
 
 ## Language used
 This is a restaurant landing page template made of only HTML and CSS.
@@ -68,6 +68,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 good luck
 
 ## Author
- Lyons Albert Masawa.
+* Lyons Albert Masawa.
 
 [Go Back to the top](#The-Burger-Palace-re)
